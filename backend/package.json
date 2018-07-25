@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "prod": "pm2 start src/loader.js --name hbsis-todo-app-react",
+    "stop-prod": "pm2 stop hbsis-todo-app-react"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.11",
+    "node-restful": "^0.2.6",
+    "nodemon": "^1.17.2",
+    "pm2": "^2.10.1"
+  }
+}
